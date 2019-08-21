@@ -50,11 +50,14 @@ body
 
 h1
 {
+
+
 	font-family: '3dumbregular';
 	color:white;
 	text-align:center;
 	font-size:566%;
 	margin-top:9%;
+	animation:tada 10s infinite;
 }
 
 h2
@@ -73,7 +76,16 @@ p
 img
 {
 
-margin-top: -45%;
+	 animation: anim 5s ;
+	margin-top: -50%;
+}
+
+img:hover
+{
+
+	 animation: anim2 5s ;
+
+	margin-top: -50%;
 }
 
 div.taille {
@@ -138,3 +150,20 @@ margin-top: -2%;
 
 
 }
+
+#d
+{
+	width:30%;
+	font-family: 'action_man_extendedregular';
+border:1px solid black;
+background-color:rgba(255,255,255,.2);
+border-radius:10px;
+padding:1%;
+	text-align:center;
+	font-size:62%;
+ margin-top:2%;
+	margin-left:65%;
+
+
+}
+
