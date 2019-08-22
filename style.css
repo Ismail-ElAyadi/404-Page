@@ -84,8 +84,9 @@ img:hover
 {
 
 	 animation: anim2 5s ;
+	 
 
-	margin-top: -50%;
+	margin-top: -100%;
 }
 
 div.taille {
